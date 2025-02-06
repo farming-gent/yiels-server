@@ -35,7 +35,7 @@ const addMarket =  asyncHandler( async (req, res) => {
 
  const getMrkets = asyncHandler(async(req, res) => {
      const markets = await Market.find().populate("silo0").populate("silo1")
-     res.status(200).json(markets)
+     res.status(200).json({items : markets})
  })
 module.exports = {
     addMarket,

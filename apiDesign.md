@@ -24,3 +24,6 @@
    silo 0
    silo 1
   }
+
+
+ENDPOINT =  https://yield-server.onrender.com
